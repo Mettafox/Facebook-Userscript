@@ -1,3 +1,4 @@
+/*  
     Facebook Auto "Most Recent" Stories
     This script change the Facebook feed automatically to the most recent publications (stories).
     As well, this script change the publications order of the groups to most recent publications.
@@ -18,7 +19,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
+*/
 // ==UserScript==
 // @name        Facebook Auto "Most Recent" Stories
 // @version     0.1557115315
