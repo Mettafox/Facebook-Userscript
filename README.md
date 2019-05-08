@@ -18,4 +18,4 @@ I changed the link of the groups in this section by adding the option **?sorting
 
 **Note:** If you want to see **New Activity** instead of **Recent Posts**, you need to change that in the script.
 
-For that, you need to change the ```javascript gpop[*]``` index from `gpop[0]` to `gpop[1]` everywhere that this variable is used.
+For that, you need to change the `gpop[*]` index from `gpop[0]` to `gpop[1]` everywhere that this variable is used.
