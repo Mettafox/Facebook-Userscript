@@ -5,6 +5,8 @@ With this, your feed is automatically sorted to the most recent activity.
 
 As well, if you like to see the most recent posts in the groups, this script do the job for you.
 
+Note: You must install this userscript from here: [Greasy Fork: Facebook \"Most Recent\" Stories](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories "Facebook \"Most Recent\" Stories").  
+
 ## How to work with this script?
 ### 1. Feed:
 I changed the URL of the **Facebook logo (1)** and the **Home button (2)** in the blue bar. So when you click on them, you will be redirected to the most recent feed.
