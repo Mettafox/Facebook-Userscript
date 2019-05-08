@@ -1,21 +1,3 @@
-// ==UserScript==
-// @name        Facebook Auto "Most Recent" Stories
-// @version     0.1557115315
-// @author      Hélder Ferreira
-// @namespace   https://greasyfork.org/users/89591
-// @homepageURL https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories
-// @description Change Facebook feed and group posts to "Most Recent" Stories / Publications
-// @compatible  chrome
-// @compatible  firefox
-// @compatible  opera
-// @compatible  safari
-// @compatible  msedge
-// @license     MIT License (https://opensource.org/licenses/MIT)
-// @icon        http://i.imgur.com/WpjyLA4.png
-// @match       https://*.facebook.com/*
-// @grant       none
-// ==/UserScript==
-
 var cur = new URL(window.location), fd = cur["origin"] + "?sk=h_chr", grp = document.querySelectorAll("[data-type='type_group'] > a"), elm = document.querySelectorAll("[data-click='bluebar_logo'] > a, ._3qcu > a"), idx = ["?sk=h_nor", "?ref=logo", "?sk=nf", "?ref=tn_tnmn"], grid = document.querySelectorAll("[property='al:android:url']"), spurl = splitURL(cur["href"], "/"), gdisc = document.querySelectorAll("._2yaa > a"), gpop = ["CHRONOLOGICAL", "RECENT_ACTIVITY"];",
 if(cur["href"] === cur["origin"] + "/"){
    window.location.replace(fd);
