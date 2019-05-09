@@ -6,7 +6,7 @@ With this, your feed is automatically sorted to the most recent activity.
 
 As well, if you like to see the most recent posts in the groups, this script do the job for you.
 
-    Note: You must install this userscript from here: [Greasy Fork: Facebook \"Most Recent\" Stories](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories "Facebook \"Most Recent\" Stories").
+> Note: You must install this userscript from here: [Greasy Fork: Facebook \"Most Recent\" Stories](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories "Facebook \"Most Recent\" Stories").
 
 ## How to report an issue?
 I use the GitHub as bug tracker. If you find a bug, go to [here](https://github.com/Mettafox/Facebook-Userscript/issues "Facebook-Userscript bug tracker") and click on New issue.
