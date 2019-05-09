@@ -23,6 +23,7 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
  - Installed extensions [e.g. Nano Adblock, Nano Defender, etc]
+ - Include the Javascript debug / log if you find any error or something related with this script.
 
 ### Additional context
 
