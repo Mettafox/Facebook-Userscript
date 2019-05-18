@@ -1,12 +1,12 @@
 Changelog
 ======
 
-## v0.1558138696 (18/05/2019) ##
+## [v0.1558138696 (18/05/2019)](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories) ##
 
 ### New ###
 * Now when you click in the groups links in the Shortcut menu, you will be redirected to that group but with the option CHRONOLOGICAL active in the URL.  
   In this way, the group feed will automaticly change to the most recent publications.  
-  **Note:** If you want to change the group feed option, see README.
+  **Note:** If you want to change the group feed option, see [Group feed section in the README](https://github.com/Mettafox/Facebook-Userscript/blob/master/README.md#group-feed).
 
 * A 'Click' event was added to the post / comment timestamp. In this way, when you click in the post / comment timestamp, the browser will redirect you to that post / comment and active another 'click' event added to the Discussion button.
   When you click in the Discussion button, you will be redirected to the group with CHRONOLOGICAL option added to the URL.
