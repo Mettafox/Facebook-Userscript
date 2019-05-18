@@ -21,4 +21,4 @@ Changelog
 
 * I added some comments to the code for that you can understand better what this or that line do.
 
-**With this version and changes, no source code is modified.**
+**With this version and changes, no source code is modified anymore.**
