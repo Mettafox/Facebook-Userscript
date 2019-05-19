@@ -19,6 +19,10 @@ Changelog
 
 * The variables are now better organized.
 
-* I added some comments to the code for that you can understand better what this or that line do.
+* All code was changed to meet ECMAScript 6 (ECMA-262 6th Edition) standards.  
+  * Functions was changed to ***arrow functions***:  
+    > An **arrow function expression** is a syntactically compact alternative to a regular function expression, although without its own bindings to the **this**, **arguments**, **super**, or **new.target** keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors.  
+  * **indexOf()** method replaced by **includes()** method.
+* I added some comments to the code for a better understanding of what this or that line do.
 
-**With this version and changes, no source code is modified anymore.**
+**All code runs in safe-mode (safeWindow).**
