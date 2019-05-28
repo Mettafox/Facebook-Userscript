@@ -15,7 +15,7 @@ Changelog
 
 ### Changed ###
 * In the previous version, the script perform a modification in the href attribute of the **FB logo** and the **Home button** by adding the Facebook URL with the **?sk=h_chr option**.  
-  In this version, I removed that amd added a **'click' event** to those two "buttons" to change the URL.  
+  In this version, I removed that and added a **'click' event** to those two "buttons" to change the URL.  
 
 * The variables are now better organized.
 
@@ -25,4 +25,9 @@ Changelog
   * **indexOf()** method replaced by **includes()** method.
 * I added some comments to the code for a better understanding of what this or that line do.
 
-**All code runs in safe-mode (safeWindow).**
+## [v0.1559010793 (28/05/2019)](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories) - Minor Update ##
+
+### Updated ###
+* An extra verification was added to the **"gdisc"** click event to avoid an unwanted event when click in the About tab (pages).   
+   > The nav menu in the pages, uses the same class names as the nav menu in the groups, so, if you click in the About tab, the "click" event will be triggered, just like when you click in the discussion tab.  
+To avoid that, an extra verification was added.
