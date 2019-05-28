@@ -1,17 +1,16 @@
 // ==UserScript==
 // @name        Facebook Auto "Most Recent" Stories
-// @version     0.1558138696
+// @version     0.1559010793
 // @author      Hélder Ferreira
 // @namespace   https://greasyfork.org/users/89591
 // @homepageURL https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories
-// @updateURL   https://greasyfork.org/scripts/382099-facebook-auto-most-recent-stories/code/Facebook Auto "Most Recent" Stories.user.js
 // @description Change Facebook and groups feed to "Most Recent"
 // @compatible  chrome
 // @compatible  firefox
 // @compatible  opera
 // @compatible  safari
 // @compatible  msedge
-// @license     MIT License (https://opensource.org/licenses/MIT)
+// @license     MIT
 // @icon        https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png
 // @match       https://*.facebook.com/*
 // @grant       none
@@ -56,7 +55,11 @@
     "",
     "// # Discussion link event #",
     "if(gdisc[1] !== undefined){",
-        "gdisc[1].addEventListener('click', () => { window.location.replace(sortGrp(grid, 'content', gpop[0], cur['origin'] + '/')) }, false);",
+        "var abpg = document.querySelectorAll('._2yaa');",
+        "abpg = abpg[1].getAttribute('data-key');",
+        "if(!abpg.includes('tab_about')){",
+            "gdisc[1].addEventListener('click', () => { window.location.replace(sortGrp(grid, 'content', gpop[0], cur['origin'] + '/')) }, false);",
+        "}",
     "}",
     "",
     "// # 'post time' & 'comment time' link event #",
@@ -77,7 +80,7 @@
     "// # Arguments: a = element where group ID is located, b = atribute where group ID is, c = type of group disposition (CHRONOLOGICAL or RECENT_ACTIVITY), d = Facebook domain, rs = a resource variable #",
     "function sortGrp(a, b, c, d, rs){",
         "a = a[0].getAttribute(b);",
-        "rs = a.split('/')",
+        "rs = a.split('/');",
         "return d + 'groups/' + rs[3] + '/?sorting_setting=' + c;",
     "}",
     "",
