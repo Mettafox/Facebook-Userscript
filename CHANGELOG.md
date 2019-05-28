@@ -1,6 +1,13 @@
 Changelog
 ======
 
+## [v0.1559010793 (28/05/2019)](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories) - Minor Update ##
+
+### Updated ###
+* An extra verification was added to the **"gdisc"** click event to avoid an unwanted event when click in the About tab (pages).   
+   > The nav menu in the pages, uses the same class names as the nav menu in the groups, so, if you click in the About tab, the "click" event will be triggered, just like when you click in the discussion tab.  
+To avoid that, an extra verification was added.
+
 ## [v0.1558138696 (18/05/2019)](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories) ##
 
 ### New ###
@@ -24,10 +31,3 @@ Changelog
     > An **arrow function expression** is a syntactically compact alternative to a regular function expression, although without its own bindings to the **this**, **arguments**, **super**, or **new.target** keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors.  
   * **indexOf()** method replaced by **includes()** method.
 * I added some comments to the code for a better understanding of what this or that line do.
-
-## [v0.1559010793 (28/05/2019)](https://greasyfork.org/en/scripts/382099-facebook-auto-most-recent-stories) - Minor Update ##
-
-### Updated ###
-* An extra verification was added to the **"gdisc"** click event to avoid an unwanted event when click in the About tab (pages).   
-   > The nav menu in the pages, uses the same class names as the nav menu in the groups, so, if you click in the About tab, the "click" event will be triggered, just like when you click in the discussion tab.  
-To avoid that, an extra verification was added.
